@@ -1,7 +1,8 @@
-import header from "./header/header.jsx"
+import Header from "./header/header.jsx"
 const App =()=>{
     return(
         <>
+        <Header/>
         </>
     )
 }   
