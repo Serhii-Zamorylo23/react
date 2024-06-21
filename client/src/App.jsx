@@ -1,8 +1,10 @@
-import Header from "./header/header.jsx"
+import CreateNav from "./components/nav/nav"
 const App =()=>{
     return(
         <>
-        <Header/>
+        <header>
+        <CreateNav/>
+        </header>
         </>
     )
 }   
