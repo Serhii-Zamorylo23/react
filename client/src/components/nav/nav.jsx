@@ -1,6 +1,6 @@
 import s from './nav.module.scss'
 import ItemNav from './ItemNav'
-const CreateNav=()=>{
+const Nav=()=>{
     const Active="LIFESTYLE"
     const NavStorage =[
         "LIFESTYLE",
@@ -16,4 +16,4 @@ const CreateNav=()=>{
         </nav>
     )
 }
-export default CreateNav
+export default Nav

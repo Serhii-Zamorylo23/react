@@ -1,6 +1,18 @@
 .list{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 555px;
     height:19px;
+    column-gap: 100px;
+    padding-top: 70px;
+    &_item{
+        text-decoration: none;
+        color: #7D7D7D;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-size: 14px;
+        &_active{
+            color:#03A9F4;
+        }
+    }
 }

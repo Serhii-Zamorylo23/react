@@ -1,10 +1,14 @@
-import CreateNav from "./components/nav/nav"
+import Nav from "./components/nav/nav"
+import Arcticles from "./components/articles/arcticles"
 const App =()=>{
     return(
         <>
         <header>
-        <CreateNav/>
+        <Nav/>
         </header>
+        <main>
+            <Arcticles/>
+        </main>
         </>
     )
 }   
