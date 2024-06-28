@@ -1,5 +1,6 @@
 import Nav from "./components/nav/nav"
 import Arcticles from "./components/articles/arcticles"
+import Button from "./components/button/button"
 const App =()=>{
     return(
         <>
@@ -9,6 +10,9 @@ const App =()=>{
         <main>
             <Arcticles/>
         </main>
+        <footer>
+            <Button/>
+        </footer>
         </>
     )
 }   

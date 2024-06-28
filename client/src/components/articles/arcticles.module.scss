@@ -1,35 +1,34 @@
-.section{
+.section{ 
+    width: 906px;
     margin: 92px auto 0 auto;
-}
-.list{
+  }
+  .list{
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     row-gap: 130px;
-    &_item{
-        width: 50%;
-        &_category{
-            padding-top: 62px;
-            font-family: "Ubuntu", sans-serif;
-            font-weight: 300;
-            font-size: 14px;
-            color: #B4AD9E;
-
-        }
-        &_title{
-            padding-top: 32px;
-            font-family: "Playfair Display", serif;
-            font-size: 30px;
-            font-weight: 400;
-            color: #626262;
-        }
-        &_text{
-            padding-top: 40px;
-            font-family: "Playfair Display", serif;
-            font-size: 14px;
-            color: #626262;
-        }
+    &_item{ 
+      width: 420px;
+      &_category{ 
+        padding-top: 62px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #B4AD9E;
+      }
+      &_title{ 
+        padding-top: 32px;
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #626262;
+      }
+      &_description{
+        padding-top: 40px;
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        color:  #626262;
+      }
     }
-
-}
+  }
