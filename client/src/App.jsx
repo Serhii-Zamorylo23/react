@@ -11,7 +11,7 @@ const App =()=>{
             <Arcticles/>
         </main>
         <footer>
-            <Button/>
+            <Button text="Load more"/>
         </footer>
         </>
     )

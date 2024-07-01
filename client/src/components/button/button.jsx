@@ -1,7 +1,9 @@
 import s from "./button.module.scss"
-const Button=()=>{
-    <button className={s.button}>
-        Load more
-    </button>
+const Button=(props)=>{
+    return(
+        <button className={s.button}>
+        {props.text}
+        </button>
+    )
 }
 export default Button
